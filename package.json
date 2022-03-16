@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-dtype",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Return the data type of a complex number.",
   "license": "Apache-2.0",
   "author": {
