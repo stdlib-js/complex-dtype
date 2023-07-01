@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/complex-dtype
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var dtype = require( '@stdlib/complex-dtype' );
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@deno/mod.js';
 ```
 
 #### dtype( value )
@@ -65,7 +49,7 @@ var dtype = require( '@stdlib/complex-dtype' );
 Returns the [data type][@stdlib/complex/dtypes] of a complex number.
 
 ```javascript
-var Complex128 = require( '@stdlib/complex-float64' );
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
 
 var dt = dtype( new Complex128( 1.0, 2.0 ) );
 // returns 'complex128'
@@ -101,9 +85,9 @@ var dt = dtype( 'beep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var dtypes = require( '@stdlib/complex-dtypes' );
-var ctors = require( '@stdlib/complex-ctors' );
-var dtype = require( '@stdlib/complex-dtype' );
+import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtypes@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@deno/mod.js';
 
 // Get a list of supported complex number data types:
 var DTYPES = dtypes();
@@ -148,7 +132,7 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -208,7 +192,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-dtype/main/LICENSE
 
-[@stdlib/complex/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/complex/dtypes]: https://github.com/stdlib-js/stdlib/tree/deno
 
 </section>
 
