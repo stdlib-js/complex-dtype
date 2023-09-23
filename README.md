@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@v0.1.0-deno/mod.js';
 ```
 
 #### dtype( value )
@@ -98,7 +98,7 @@ var dt = dtype( 'beep' );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtypes@deno/mod.js';
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
-import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@deno/mod.js';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtype@v0.1.0-deno/mod.js';
 
 // Get a list of supported complex number data types:
 var DTYPES = dtypes();
