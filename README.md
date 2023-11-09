@@ -146,6 +146,12 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-dtype`][@stdlib/array/dtype]</span><span class="delimiter">: </span><span class="description">return the data type of an array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -219,7 +225,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-dtype/main/LICENSE
 
-[@stdlib/complex/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/complex/dtypes]: https://github.com/stdlib-js/complex-dtypes
+
+<!-- <related-links> -->
+
+[@stdlib/array/dtype]: https://github.com/stdlib-js/array-dtype
+
+<!-- </related-links> -->
 
 </section>
 
